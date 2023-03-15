@@ -1,20 +1,48 @@
 body {
-    background-color: rgb(52, 141, 171);
+  background-color:rgba(20, 150, 187, 0.5)
   }
   
-  h1 {
-    color: white;
+h1 {
+  color: white;
+  font-family: Verdana;
+  background-color: rgba(9, 49, 69, 0.8);
+  border: 5px solid #00acd7;
+  border-radius: 15px;
   }
-  
+
+p {
+  font-size: 20px;
+  font-family: cursive; 
+}
+
   .center {
     text-align: center;
   }
-  
-  #para {
-    font-family: Verdana;
-    font-size: 20px;
+
+  .cor-fonte {
+    color: black;
   }
 
-  .cor {
-    color:green;
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(20, 150, 187,)
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } 
+
+  .topnav a:hover {
+    background-color: #0c5c724d;
+    color: #ffffff;
+  }
+
+  .margem {
+    margin: 70px;
+    padding: 70px
   }

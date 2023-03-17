@@ -12,7 +12,7 @@ h1 {
 
 p {
   font-size: 20px;
-  font-family: cursive; 
+  font-family: 'Righteous', cursive;
 }
 
   .center {
@@ -20,7 +20,7 @@ p {
   }
 
   .cor-fonte {
-    color: black;
+    color: rgb(21, 142, 234);
   }
 
   .topnav {
@@ -45,4 +45,8 @@ p {
   .margem {
     margin: 70px;
     padding: 70px
+  }
+
+  .sombra {
+    text-shadow: 5px 5px 3px black;
   }
